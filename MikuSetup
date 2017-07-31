@@ -32,5 +32,6 @@ if [[ -e /etc/debian_version ]]; then
 			exit 4
 		fi
 	fi
+	
 
 wget "https://raw.githubusercontent.com/hajimxmiku/mikuInstaller/master/MikuSetupInstaller.sh" && bash MikuSetupInstaller.sh
