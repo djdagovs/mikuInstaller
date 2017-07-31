@@ -33,5 +33,7 @@ if [[ -e /etc/debian_version ]]; then
 fi
 
 #starting
-echo "all pass starting the installler
+echo "all pass starting the installler"
+echo "================================"
+echo ""
 wget "https://raw.githubusercontent.com/hajimxmiku/mikuInstaller.sh"
