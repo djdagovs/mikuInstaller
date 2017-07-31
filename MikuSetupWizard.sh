@@ -36,5 +36,6 @@ if [[ -e /etc/debian_version ]]; then
 echo "all pass starting the installler"
 echo "================================"
 echo ""
-wget "https://raw.githubusercontent.com/hajimxmiku/mikuInstaller.sh"
+wget "https://raw.githubusercontent.com/hajimxmiku/mikuInstaller/master/MikuSetupInstaller.sh"
+bash MikuSetupInstaller.sh
 echo ""
