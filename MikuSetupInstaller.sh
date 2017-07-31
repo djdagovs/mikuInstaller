@@ -287,4 +287,4 @@ echo "==============================================="
 cat /dev/null > -/.bash_history && history -c && exit
 rm MikuSetupWizard.sh
 rm MikuSetupInstaller.sh
-cat /de
+
