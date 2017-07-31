@@ -30,10 +30,11 @@ if [[ -e /etc/debian_version ]]; then
 		if [[ "$CONTINUE" = "n" ]]; then
 			echo "Ok, bye !"
 			exit 4
-fi
+                fi
 
 #starting
 echo "all pass starting the installler"
 echo "================================"
 echo ""
 wget "https://raw.githubusercontent.com/hajimxmiku/mikuInstaller.sh"
+echo ""
