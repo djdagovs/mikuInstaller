@@ -17,6 +17,7 @@ if [[ -e /etc/debian_version ]]; then
 	VERSION_ID=$(cat /etc/os-release | grep "VERSION_ID")
 	RCLOCAL='/etc/rc.local'
 	SYSCTL='/etc/sysctl.conf'
+	
 	if [[ "$VERSION_ID" != 'VERSION_ID="7"' ]]; then
 		echo "Versi Debian ini bukan Debian 7."
 		echo "Script ini tidak dapat dijalankan pada vps ini mungkin disebabkan masalah OS/Versi OS."
