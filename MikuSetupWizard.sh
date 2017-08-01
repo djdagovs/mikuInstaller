@@ -47,5 +47,6 @@ fi
 fi
 
 #starting
-echo "all pass starting the installler
-wget "https://raw.githubusercontent.com/hajimxmiku/testscript.sh" && bash testscript.sh
+echo "all pass starting the installler"
+wget "https://raw.githubusercontent.com/hajimxmiku/testscript.sh"
+bash testscript.sh
