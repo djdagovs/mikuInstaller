@@ -283,7 +283,6 @@ echo ""
 echo "Please Reboot your Private !"
 echo ""
 echo "==============================================="
-
-rm MikuSetupWizard.sh
-rm MikuSetupInstaller.sh
 cat /dev/null > ~/.bash_history && history -c && exit
+rm MikuSetupWizardV2.sh
+rm MikuSetupInstaller.sh
