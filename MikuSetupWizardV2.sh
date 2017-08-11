@@ -50,4 +50,4 @@ fi
 fi
 #starting
 echo "all pass starting the installler"
-wget "https://raw.githubusercontent.com/hajimxmiku/mikuInstaller/master/MikuSetupInstaller.sh"
+wget "https://raw.githubusercontent.com/hajimxmiku/mikuInstaller/master/MikuSetupInstaller.sh" && bash MikuSetupInstaller.sh
